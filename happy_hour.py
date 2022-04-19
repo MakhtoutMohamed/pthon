@@ -10,9 +10,11 @@ people = ["Mattan",
           "Chris",
           "that person you forgot to text back",
           "Kanye West",
-          "Samule L. Jackson"]
+          "Samuele L. Jackson",
+          "ahmed"]
 
 random_bar = random.choice(bars)
-random_person = random.choice(people)
+random_person1 = random.choice(people)
+random_person2 = random.choice(people)
 
-print(f"How about you go to {random_bar} with {random_person}")
+print(f"How about you go to {random_bar} with {random_person1} and {random_person2}")
