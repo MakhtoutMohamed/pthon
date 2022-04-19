@@ -10,7 +10,7 @@ print(phrase, name)
 
 name = "Casablanca"
 number = 200
-float = 123.21
+float = 123.2123
 
 total = number + float
 
