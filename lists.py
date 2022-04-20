@@ -10,3 +10,18 @@ for stock in stocks:
 
 for random in random_things:
     print("random things:", random)
+
+
+people = []
+
+people.append("sarah")
+people.append("same")
+people.append("johnah")
+
+print(people)
+
+people.remove("johnah")
+print(people)
+
+for person in people:
+    print("person is:", person)
