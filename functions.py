@@ -15,3 +15,13 @@ print(greet('chris'))
 print(concatenate('matan ', 'chris'))
 
 print(age_on_dog_years(28))
+
+name = "sloooda"
+
+def print_different_name():
+    name = 'jooohn'
+    print(name)
+
+print(name)
+print_different_name()
+print(name)
